@@ -10,7 +10,8 @@ if (isset($_POST['delete'])) {
         $sql = "DELETE FROM hang_hoa  WHERE ma_hh=$del_id";
         $stmt = $conn->prepare($sql);
         $stmt->execute();
-    }
+    };
+    echo "hh";
 
     header("location: list_hh.php?message=Thêm thành công");
     die;
