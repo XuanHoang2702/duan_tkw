@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-content{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.slice_product{
+    width: 75%;
+}
+#carouselExampleCaptions{
+    width: 100%;
+}
+.navigation{
+    width: 25%;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.items{
+   margin-top: 20px;
+    width: 30%;
+    border: 1px solid black;
+}
+.items img{
+   width:100%;
+   height: 200px;
+}
+
+ 
